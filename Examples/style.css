@@ -1,0 +1,50 @@
+h1 {
+    color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32pt;
+    text-align: center;
+}
+
+h2 {
+    color: darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    text-align: center;
+}
+
+ol {
+    color: darkblue;
+    background-color: lightblue;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+ul {
+    color: azure;
+    background-color: darkcyan;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+p {
+    color: slateblue;
+    font-family: Helvetica;
+}
+
+a {
+    margin-left: 564px;
+}
+
+img {
+    width: 750px; 
+    height: 600px;
+    border: 5px solid skyblue;
+}
+
+.image-manip{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

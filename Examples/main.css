@@ -1,0 +1,64 @@
+.center, .image-manip {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-manip {
+  border: 5px solid yellow;
+}
+
+h1 {
+  color: rgb(146, 99, 29);
+  font-family: "Franklin Gothic Medium";
+  font-size: 32pt;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(230, 102, 52);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20pt;
+  text-align: center;
+}
+
+ul {
+  color: rgb(235, 233, 228);
+  background-color: rgb(139, 32, 1);
+  font-size: 16pt;
+  font-style: italic;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+ul ol {
+  color: rgb(230, 102, 52);
+  background-color: rgb(235, 233, 228);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+ol {
+  color: rgb(235, 233, 228);
+  background-color: rgb(230, 203, 51);
+  font-family: Arial;
+  font-size: 20pt;
+}
+
+p {
+  color: rgb(139, 32, 1);
+  font-family: Helvetica;
+  font-size: 14pt;
+  margin-left: 468px;
+  margin-right: 468px;
+}
+
+img {
+  width: 750px;
+  height: 600px;
+}
+
+a {
+  margin-left: 568px;
+  margin-right: 568px;
+}/*# sourceMappingURL=main.css.map */

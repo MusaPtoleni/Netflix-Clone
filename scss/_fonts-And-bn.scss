@@ -1,0 +1,62 @@
+.small-text{
+    text-align: center;
+    font-size: smaller;
+}
+
+.mid-text{
+    position: relative;
+    margin-left: 27%;
+    margin-right: 27%;
+    top: -35%;
+    line-height: 0.9;
+}
+
+.mid-text-bn{
+    position: relative;
+    margin-left: 27%;
+    margin-right: 17%;
+    top: -150%;
+}
+
+select{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 15px;
+    position: relative;
+    right: -30%;
+    text-align: center;
+}
+
+.faq{
+    display: grid;
+    row-gap: 10px;
+    
+}
+
+.dropdown-menu{
+    background-color: rgb(51, 50, 50);
+}
+
+.center1{
+    text-align: start;
+    color: gray;
+    margin: 0;
+    margin-left: 20%;
+}
+
+h6{
+    font-size: large;
+    text-align: start;
+    margin: 1;
+    margin-left: 26.8%;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td{
+    padding-left: 100px;
+}
+
+.link-text :hover{
+    color: red;
+}

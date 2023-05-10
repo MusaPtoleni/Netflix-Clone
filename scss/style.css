@@ -1,0 +1,213 @@
+.grids {
+  display: grid;
+  grid-template-rows: auto;
+  background-color: rgb(27, 27, 27);
+  row-gap: 10px;
+}
+.grids .grid-style {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.grids .grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.grids .grid2x2 {
+  background-color: black;
+  padding: 50px;
+}
+.grids .grid1 {
+  background: linear-gradient(rgba(20, 20, 20, 0.753), rgba(10, 10, 10, 0.801)), url("../images/ZA-en-20220509-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  display: grid;
+  padding: 85px;
+  background-blend-mode: darken;
+}
+.grids .grid3img {
+  background: no-repeat url("../images/mobile-0819.jpg");
+  background-size: 480px;
+  background-position: 30%;
+}
+.grids .grid5-img {
+  background: no-repeat url("../images/kidsValueProp.png");
+  background-size: 480px;
+  background-position: 35%;
+}
+.grids .grid4-text {
+  background-color: black;
+  padding: 1px;
+  margin: 1%;
+  margin-right: 50%;
+  margin-left: 10%;
+}
+.grids .grid6 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.small-text {
+  text-align: center;
+  font-size: smaller;
+}
+
+.mid-text {
+  position: relative;
+  margin-left: 27%;
+  margin-right: 27%;
+  top: -35%;
+  line-height: 0.9;
+}
+
+.mid-text-bn {
+  position: relative;
+  margin-left: 27%;
+  margin-right: 17%;
+  top: -150%;
+}
+
+select {
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding: 15px;
+  position: relative;
+  right: -30%;
+  text-align: center;
+}
+
+.faq {
+  display: grid;
+  row-gap: 10px;
+}
+
+.dropdown-menu {
+  background-color: rgb(51, 50, 50);
+}
+
+.center1 {
+  text-align: start;
+  color: gray;
+  margin: 0;
+  margin-left: 20%;
+}
+
+h6 {
+  font-size: large;
+  text-align: start;
+  margin: 1;
+  margin-left: 26.8%;
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+
+td {
+  padding-left: 100px;
+}
+
+.link-text :hover {
+  color: red;
+}
+
+.tv-stand {
+  background: no-repeat url("../images/tv-stand.png");
+  background-size: 460px;
+}
+
+video {
+  position: relative;
+  left: 2%;
+}
+
+.start-bn {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 3px;
+  position: relative;
+  right: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-bn {
+  padding-left: 45%;
+  text-align: start;
+}
+
+input {
+  padding: 25px;
+}
+
+.btn {
+  width: 5%;
+  position: absolute;
+  top: 3%;
+  left: 90%;
+  font-size: 17px;
+  background-color: red;
+  color: white;
+  padding: 7px;
+  padding-right: 8px;
+  border-radius: 5px;
+  border-color: red;
+}
+
+.forms {
+  margin: 0;
+  margin-right: 50%;
+  padding: 25px;
+  display: grid;
+  row-gap: 5px;
+  text-align: start;
+  flex: content;
+}
+
+body {
+  display: contents;
+}
+body h1 {
+  font-weight: 600;
+  font-size: 320%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: start;
+}
+body p {
+  font-weight: 600;
+  font-size: 190%;
+  text-align: start;
+  font-family: "Times New Roman", Times, serif;
+}
+body h4 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 150%;
+  font-weight: 600;
+}
+body h5 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 115%;
+  padding: 5px;
+}
+body header {
+  font-weight: 600;
+  font-size: 410%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+body select {
+  padding-right: 100%;
+  font-size: larger;
+}
+
+.logo {
+  width: 23vw;
+  position: relative;
+  bottom: 8rem;
+  right: 9rem;
+  padding: 18px;
+}/*# sourceMappingURL=style.css.map */

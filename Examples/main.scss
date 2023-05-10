@@ -1,0 +1,70 @@
+@import "image-manipulation";
+
+$main-colour:rgb(146, 99, 29);
+$secondary-colour: rgb(230, 102, 52);
+$accent-colour: rgb(139, 32, 1);
+$highlight-colour: rgb(235, 233, 228);
+$extra-colour: rgb(230, 203, 51);
+
+$paragraph-size: 14pt;
+
+@mixin margins($pixels) {
+    margin-left: $pixels;
+    margin-right: $pixels;
+}
+
+h1 {
+    color: $main-colour;
+    font-family: 'Franklin Gothic Medium';
+    font-size: $paragraph-size + 18pt;
+    text-align: center;
+}
+
+h2 {
+    color: $secondary-colour;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: $paragraph-size + 6pt;
+    text-align: center;
+}
+
+ul {
+    color: $highlight-colour;
+    background-color: $accent-colour;
+    font-size: 16pt;
+    font-style: italic;
+    @include margins(200px);
+    
+
+    ol {
+        color: $secondary-colour;
+        background-color: $highlight-colour;
+        font-style: normal;   
+        font-weight: bold;  
+        font-size: 16pt;  
+    }
+}
+
+ol {
+    color: $highlight-colour;
+    background-color: $extra-colour;
+    font-family: Arial;
+    font-size: 20pt;
+}
+
+p {
+    color: $accent-colour;
+    font-family: Helvetica;
+    font-size: $paragraph-size;
+    @include margins(468px);
+}
+
+img {
+    width: 750px; 
+    height: 600px;
+}
+
+a {
+    @include margins(568px);
+}
+
+

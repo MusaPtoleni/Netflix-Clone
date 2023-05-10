@@ -1,0 +1,58 @@
+@import "./grids";
+@import "./fonts-And-bn";
+@import "./Tv-stand";
+@import "./buttons";
+
+body{
+    display: contents;
+
+    h1{
+        font-weight: 600;
+        font-size: 320%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: start;
+    }
+
+    p{
+        font-weight: 600;
+        font-size: 190%;
+        text-align: start;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    h4{
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 150%;
+        font-weight: 600;
+    }
+
+    h5{
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        font-weight: 600;
+        font-size: 115%;
+        padding: 5px;
+    }
+
+    header{
+        font-weight: 600;
+        font-size: 410%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    select{
+        padding-right: 100%;
+        font-size: larger;
+    }
+}
+
+
+.logo{
+    width: 23vw;
+    position: relative;
+    bottom: 8rem;
+    right: 9rem;
+    padding: 18px;
+}

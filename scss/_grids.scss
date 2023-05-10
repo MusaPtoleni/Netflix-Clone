@@ -1,0 +1,60 @@
+.grids{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(27, 27, 27);
+    row-gap: 10px;
+
+    .grid-style{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    
+    }
+
+    .grid2x2{
+        background-color: black;
+        padding: 50px;
+    }
+
+    .grid1{
+        background: linear-gradient(rgba(20, 20, 20, 0.753),rgba(10, 10, 10, 0.801)), url('../images/ZA-en-20220509-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+        display: grid;
+        padding: 85px;
+        background-blend-mode: darken;
+    }
+    
+    .grid3img{
+        background: no-repeat url('../images/mobile-0819.jpg');
+        background-size: 480px;
+        background-position: 30%;
+    }
+
+    .grid5-img{
+        background: no-repeat url("../images/kidsValueProp.png");
+        background-size: 480px;
+        background-position: 35%;
+    }
+
+    .grid4-text{
+        background-color: black;
+        padding: 1px;
+        margin: 1%;
+        margin-right: 50%;
+        margin-left: 10%;
+    }
+
+    .grid6{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+}
+
+
